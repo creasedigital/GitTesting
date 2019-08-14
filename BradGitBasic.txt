@@ -1,0 +1,35 @@
+WHAT IS GIT?
+Git is a decentralized VCS
+With Git multiple developers can work on a file at the same time
+** distributed version control
+** coordinates work between multiple developers
+** identifies who makes what changes and when
+** reverts back at any time
+** local & remote repos(folder)
+
+CONCEPTS OF GIT
+** keeps track of code history
+** takes snapshots of your files  //using add command
+** you decide when to take a snapshot by making a commit
+** you can visit any snapshot at anytime
+** you can stage files before committing
+
+USEFUL GIT COMMANDS
+** git init     //initializes local git repo by creating a .git folder
+** git add <file>       //adds the snapshots(modified file) to the staging area ready for commit
+** git add .      //adds all the snapshots(modified file) to the staging area ready for commit
+** git add <*fileExtension>       //adds every snapshots(modified file) of the written format to the staging area ready for commit
+** git rm --cached <fileName>       //removes a given file from the staging area after it has been added
+** git status       //shows what is in the staging area; differentiates between the working tree & staging area
+** git commit       //takes everything in the index and commits it to the local repo but passes you through the comment section where you press <i> to insert a comment and <:wq> to exit the comment area
+** git commit -m 'myComment'      //takes everything in the index and commits it to the local repo immediately
+** git push     //push to remote repository like github and creating an SSH key will help avoid login hassles
+** git pull     //pull latest changes or version from the remote repo
+** git clone        //clone/download remote repo into a new directory(current folder)
+** git config --global user.name 'myName'     //adds your username
+** git config --global user.email 'myEmail'     //adds your email address
+** touch .gitignore     //creates an area where files can be excluded from staging by listing the files in the .gitignore file 
+** git branch <branchName>      //creates a new branch
+** git checkout <branchName>        //switches our working tree to the new branch
+** git checkout <master>        //switches our working tree back to the master branch
+** 

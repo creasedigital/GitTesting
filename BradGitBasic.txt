@@ -32,4 +32,7 @@ USEFUL GIT COMMANDS
 ** git branch <branchName>      //creates a new branch
 ** git checkout <branchName>        //switches our working tree to the new branch
 ** git checkout <master>        //switches our working tree back to the master branch
-** 
+** git merge <branchName>       //merges branch to the master
+** git remote       //checks to see any remote repository
+** git remote add origin <url>       //adds a remote repository to our git project
+** git push -u origin master        //pushes our git repo to github
